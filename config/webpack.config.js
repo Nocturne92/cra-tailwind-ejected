@@ -538,7 +538,6 @@ module.exports = function (webpackEnv) {
                     getLocalIdent: getCSSModuleLocalIdent,
                   },
                 },
-                'postcss-loader',
                 'sass-loader'
               ),
             },
